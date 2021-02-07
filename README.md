@@ -80,9 +80,10 @@ Design & Implement a service which allows users to get Lucky Draw Raffle tickets
 * Result
 ![alt text](https://github.com/Sanjit-Prasad/Raffle_Ticket/blob/main/images/5.2.png?raw=true)
 
+
 # Extras
 
-# Database Tables
+## Database Tables
 
 # 1. User Table
 ![alt text](https://github.com/Sanjit-Prasad/Raffle_Ticket/blob/main/images/user.png?raw=true)
