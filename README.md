@@ -6,24 +6,24 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-ruby 2.4.10p364 (2020-03-31 revision 67879) [x86_64-linux]
+    * ruby 2.4.10p364 (2020-03-31 revision 67879) [x86_64-linux]
 
 * Rails version
-Rails 5.2.4.4
+    * Rails 5.2.4.4
 
 * Services
-cron job
-job queues
+    * cron job
+    * job queues
 
 * Database
-DatabaseName: MySql2
-Server: localhost:3306
-DatabaseName: raffle_ticketdb
-Tables: users, rewards, tikets, winners
+    * DatabaseName: MySql2
+    * Server: localhost:3306
+    * DatabaseName: raffle_ticketdb
+    * Tables: users, rewards, tikets, winners
 
 * Tools
-phpMyAdmin: UI to view database
-Postman: To make API calls to server
+    * phpMyAdmin: UI to view database
+    * Postman: To make API calls to server
 
 # ER Diagram
 
