@@ -27,6 +27,9 @@ Things you may want to cover:
 
 # ER Diagram
 
+# Association between Models
+
+
 # Objective
 Lucky Draw Gaming Service
 
@@ -56,8 +59,3 @@ Design & Implement a service which allows users to get Lucky Draw Raffle tickets
 # 5. Compute the winner for the event and announce the winner.
 
 * We have made a cron_job which will run everyday at 8AM. The task of the job is to compute the winner for the last ongoing event and select a user who has participated in the event by generating a raffle ticket for that event.
-
-# Extras
-
-# Association between models
-
