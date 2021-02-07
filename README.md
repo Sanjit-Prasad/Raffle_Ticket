@@ -1,9 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+This README will document the partial fulfilment of the assignment. We explains each task briefly and how we accomplish them. We also provide a detailed view of all the services, tools, databases, programming languages used for the same.
 
 * Ruby version
     * ruby 2.4.10p364 (2020-03-31 revision 67879) [x86_64-linux]
@@ -44,10 +41,11 @@ Design & Implement a service which allows users to get Lucky Draw Raffle tickets
 
 * If the user dosen't have generated any raffle ticket for the event, then she call an API 'generate_raffle_ticket', which issue them a raffle ticket from available tickets.
 
-* API
+* API & Result
+
 ![alt text](https://github.com/Sanjit-Prasad/Raffle_Ticket/blob/main/images/1.1.png?raw=true)
 
-* Result
+
 ![alt text](https://github.com/Sanjit-Prasad/Raffle_Ticket/blob/main/images/1.2.png?raw=true)
 
 # 2. - Design an API which shows the next Lucky Draw Event timing & the corresponding reward.
@@ -64,20 +62,22 @@ Design & Implement a service which allows users to get Lucky Draw Raffle tickets
 
 * We call an API 'search_last_week_winners' which makes a query to the databse and get a json repsonse of winners of past week.
 
-* API 
+* API & Result
+
 ![alt text](https://github.com/Sanjit-Prasad/Raffle_Ticket/blob/main/images/4.1.png?raw=true)
 
-* Result
+
 ![alt text](https://github.com/Sanjit-Prasad/Raffle_Ticket/blob/main/images/4.2.png?raw=true)
 
 # 5. Compute the winner for the event and announce the winner.
 
 * We have made a cron_job which will run everyday at 8AM. The task of the job is to compute the winner for the last ongoing event and select a user who has participated in the event by generating a raffle ticket for that event.
 
-* API
+* API & Result
+
 ![alt text](https://github.com/Sanjit-Prasad/Raffle_Ticket/blob/main/images/5.1.png?raw=true)
 
-* Result
+
 ![alt text](https://github.com/Sanjit-Prasad/Raffle_Ticket/blob/main/images/5.2.png?raw=true)
 
 
